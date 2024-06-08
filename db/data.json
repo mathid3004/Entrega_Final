@@ -1,0 +1,32 @@
+[
+{
+    "id": 0,
+    "nombre": "Prestamo Simple",
+    "moneda": "pesos", 
+    "montoMaximo": 50000
+},
+{
+    "id": 1,
+    "nombre": "Prestamo Doble", 
+    "moneda": "pesos", 
+    "montoMaximo": 100000
+},
+{
+    "id": 2,
+    "nombre": "Prestamo Compuesto", 
+    "moneda": "pesos", 
+    "montoMaximo": 250000
+},
+{
+    "id": 3,
+    "nombre": "Prestamo Coche", 
+    "moneda": "pesos", 
+    "montoMaximo": 1000000
+},
+{
+    "id": 4,
+    "nombre": "Prestamo Casa", 
+    "moneda": "pesos", 
+    "montoMaximo": 5000000
+}
+]

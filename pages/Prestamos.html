@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestamos</title>
+</head>
+<body>
+    <h1>Simulador de Prestamos</h1>
+    <div id="visualizarPrestamos">
+    </div>
+    <div>
+        <p></p>
+    </div>
+    <div>
+        <h3>Ingrese los datos del cliente para solicitar un prestamo</h3>
+    </div>
+    <form id = "datosClientes">
+        <label for= "cedula"> Cedula </label>
+        <input type = text  id = "cedula" name = "cedula"> 
+        <label for= "nombre"> Nombre y Apellido </label>
+        <input type = text  id = "nombre" name = "nombre"> 
+        <label for= "correo"> Correo </label>
+        <input type = text  id = "correo" name = "correo"> 
+        <button id = "botonEnviarCliente">Enviar</button>
+    </form>
+    <h2><a href="/index.html">Volver al index</a></h2>
+    <script src="/js/prestamos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
